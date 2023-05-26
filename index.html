@@ -14,18 +14,18 @@
 
 <body>
     <h1>ROCK-PAPER-SCISSORS-LIZARD-SPOCK</h1>
-    <div class="left">
-        <div>
-            <!--Game instructions-->
+    <div class="container">
+        <div class="newGameButtons">
+            <button>Start game</button>
+            <button>Reset score</button>
         </div>
-
-    </div>
-    <div class="centre">
-        <div class="computerCard">
-            <!--Image-->
-        </div>
-        <div class="playerCard">
-            <!--Image-->
+        <div class="cards">
+            <div class="card" id="computerCard">
+                <!--Image-->
+            </div>
+            <div class="card" id="playerCard">
+                <!--Image-->
+            </div>
         </div>
         <div class="buttons">
             <button>Rock</button>
@@ -34,20 +34,16 @@
             <button>Lizard</button>
             <button>Spock</button>
         </div>
-        <div class="right">
-            <div class="returnedText">
-                <p>
-                    <!--Returned message from game result-->
-                </p>
-            </div>
-            <div class="scoreTable">
-
-            </div>
-            <div class="newGame">
-                <button>New game</button>
-                <button>Reset score</button>
-            </div>
+        <div class="returnedText">
+            <p>
+                <!--Returned message from game result-->
+            </p>
         </div>
+        <div class="scoreTable">
+            <span>Computer wins</span>
+            <span>Player wins</span>
+        </div>
+
     </div>
     <script src="assets/js/script.js"></script>
 </body>

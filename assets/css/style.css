@@ -1,3 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: blue;
+    background-color: hsl(256, 89%, 22%);
+}
+
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 5vh;
+}
+
+.container {
+    width: 85%;
+    background-color: hsl(256, 95%, 15%);
+    margin: auto;
+    text-align: center;
+}
+
+.cards {
+    height: 60vh;
+    width: 80%;
+    background-color: beige;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.card {
+    height: 30vh;
+    width: 25vh;
+    background-color: rgb(121, 225, 61);
+    margin: 10px;
 }
