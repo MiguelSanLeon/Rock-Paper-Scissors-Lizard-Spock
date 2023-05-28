@@ -23,7 +23,7 @@ h1 {
 }
 
 .cards {
-    height: 60vh;
+    height: 40vh;
     width: 80%;
     background-color: beige;
     margin: auto;
@@ -39,4 +39,37 @@ h1 {
     width: 25vh;
     background-color: rgb(121, 225, 61);
     margin: 10px;
+}
+
+.buttons {
+    height: 7vh;
+    width: 80%;
+    background-color: crimson;
+    margin: auto;
+    padding: 1%;
+}
+
+.returnedText {
+    background-color: gold;
+    height: 10vh;
+    width: 80%;
+    margin: auto;
+}
+
+.scoreTable {
+    background-color: darkslategrey;
+    height: 7vh;
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+}
+
+button {
+    padding: 5px;
+    border-color: black;
+    border-radius: 15px;
+}
+
+.scoreTable span {
+    margin: 0px 20px 0px 20px;
 }
