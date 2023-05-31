@@ -13,9 +13,19 @@ let computerScore = 0;
 let playerScore = 0;
 
 // Game functions 
-/** Function start the game */
+/** Function start the game 
+ * reset the score table
+ * clean the result text 
+ * reset computer card and player card with text and no image
+*/
 function startGame() {
-
+    computerScore = 0;
+    playerScore = 0;
+    updateScoreText();
+    playerButtons.forEach(button => button.disable = false);
+    resultText.textContent = "";
+    computerCard.innerHTML = "Computer Choice";
+    playerCard.innerHTML = "Player Choice";
 }
 /** Function to play a round in the game */
 
