@@ -15,7 +15,7 @@
     <h1>ROCK-PAPER-SCISSORS-LIZARD-SPOCK</h1>
     <div class="container">
         <div class="buttons">
-            <button>New game</button>
+            <button id="startButton">New game</button>
         </div>
         <div class="cards">
             <div class="card" id="computerCard">
@@ -26,24 +26,24 @@
             </div>
         </div>
         <div class="returnedText">
-            <p>
+            <p id="resultText">
 
             </p>
         </div>
         <div class="buttons">
-            <button>Rock</button>
-            <button>Paper</button>
-            <button>Scissors</button>
-            <button>Lizard</button>
-            <button>Spock</button>
+            <button class="playerButtons">Rock</button>
+            <button class="playerButtons">Paper</button>
+            <button class="playerButtons">Scissors</button>
+            <button class="playerButtons">Lizard</button>
+            <button class="PlayerButtons">Spock</button>
         </div>
 
         <div class="scoreTable">
             <div>
-                <span>Computer wins <em>0</em></span>
+                <span>Computer wins <em id="computerWinsText">0</em></span>
             </div>
             <div>
-                <span>Player wins <em>0</em></span>
+                <span>Player wins <em id="PlayerWinsText">0</em></span>
             </div>
 
         </div>
