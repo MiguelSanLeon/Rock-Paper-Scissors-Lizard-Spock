@@ -30,21 +30,52 @@ function startGame() {
 /** Function to play a round in the game */
 
 function playRound() {
+    const playerChoice = this.textContent.toLowerCase();
+    const computerChoice = getRandomChoice();
+    const result = determineWinner (playerChoice, computerChoice);
 
+    displayCard(playerChoice, computerChoice);
+    resultText.textContent = result;
+
+    if (result.includes("win")) {
+        playerScore++;
+    } else if (result.includes("lose")) {
+        computerScore++;
+    }
+
+    updateScoreText();
+
+    if (playerScore === 5 || computerScore === 5) {
+        playerButtons.forEach(button => button.disable = true);
+        resultText.textContent += "\n\nGame Over!";
+    }
 }
 /** Function to get a random choice fot the computer */
 
 function getRandomChoice() {
 
 }
+/** Function to display the choosen card */
+
+function displayCard (playerChoice, computerChoice) {
+
+}
+/** Function to get the image path based on the choice */
+
+function getImagePath () {
+
+}
+
 /** Function that determin the winner of a round */
 
 function roundWinner() {
 
 }
+
 /** Function to update score text */
 
 function updateScoreText() {
 
 }
-// Event listener
+
+// Event listeners
