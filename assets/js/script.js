@@ -50,20 +50,35 @@ function playRound() {
         resultText.textContent += "\n\nGame Over!";
     }
 }
-/** Function to get a random choice fot the computer */
+/** Function to get a random choice for computer */
 
 function getRandomChoice() {
-
+    const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
+    return choices [Math.floor(Math.random() * choices.length)];
 }
 /** Function to display the choosen card */
 
 function displayCard (playerChoice, computerChoice) {
-
+    computerCard.innerHTML = `<img src="${getImagePath(computerChoice)}" alt ="${computerChoice}">`;
+    playerCard.innerHTML = `<img src="${getImagePath(playerChoice)}" alt ="${playerChoice}">`;
 }
 /** Function to get the image path based on the choice */
 
-function getImagePath () {
-
+function getImagePath (choice) {
+    switch (choice) {
+        case 'rock' :
+            return 'rock.jpg';
+        case 'paper':
+            return 'paper.jpg';
+        case 'scissors':
+            return 'scissors.jpg';
+        case 'lizard':
+            return 'lizard.jpg';
+        case 'spock':
+            return 'spock.jpg';
+        default:
+            return '';
+    }
 }
 
 /** Function that determin the winner of a round */
