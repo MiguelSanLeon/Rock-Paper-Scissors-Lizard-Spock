@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (playerScore === 5 || computerScore === 5) {
             Array.from(playerButtons).forEach(button => button.disabled = true);
-            resultText.textContent += "\n\nGame Over!";
+            resultText.textContent += "<br>Game Over!";
         }
     }
     /** Function to get a random choice for computer */
