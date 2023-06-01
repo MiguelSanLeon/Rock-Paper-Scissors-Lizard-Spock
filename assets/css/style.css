@@ -115,11 +115,15 @@ nav a {
 }
 
 .scoreTable {
-    background-color: darkslategrey;
+    background-color: rgb(134, 17, 236);
     height: auto;
-    width: 100%;
+    width: 60%;
     margin: auto;
-    padding-top: 10px;
+    padding-top: 0.5rem 0;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: chartreuse;
+
 }
 
 button {
