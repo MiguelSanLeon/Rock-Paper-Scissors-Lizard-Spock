@@ -37,34 +37,31 @@ nav a {
     background-color: white;
     text-decoration: none;
     color: black;
-    padding: 0.5rem 1rem;
     border: 2px solid black;
     border-radius: 15px;
     font-family: 'Chakra Petch', sans-serif;
+    padding: 5px;
 }
 
 .container {
-    width: 100%;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
     background-color: hsl(256, 95%, 15%);
-    margin: auto;
     text-align: center;
 }
 
 .cards {
-    height: auto;
-    width: 100%;
-    background-color: beige;
-    margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-
+    margin: 2rem 0;
 }
 
 .card {
-    height: 30vh;
-    width: 8rem;
+    flex: 0 0 120px;
+    height: 160px;
     background-color: rgb(121, 225, 61);
     margin: 10px;
 }
@@ -76,11 +73,10 @@ nav a {
 }
 
 .buttons {
-    height: auto;
-    width: 100%;
-    background-color: crimson;
-    margin: auto;
-    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
 }
 
 .returnedText {
@@ -104,4 +100,8 @@ button {
     border-color: black;
     border-radius: 15px;
     font-family: "Chakra Petch", sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
 }
