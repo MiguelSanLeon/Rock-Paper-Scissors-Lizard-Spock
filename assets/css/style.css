@@ -43,13 +43,6 @@ nav a {
     font-family: 'Chakra Petch', sans-serif;
 }
 
-.navbtn {
-    padding: 5px;
-    border-color: black;
-    border-radius: 15px;
-    font-family: "Chakra Petch", sans-serif;
-}
-
 .container {
     width: 100%;
     background-color: hsl(256, 95%, 15%);
