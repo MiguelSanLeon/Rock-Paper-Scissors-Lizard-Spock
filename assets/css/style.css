@@ -4,12 +4,11 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
     box-sizing: border-box;
 }
 
 body {
-    background-color: hsl(256, 89%, 22%);
+    background-color: black;
     font-family: "Chakra Petch", sans-serif;
     font-size: 18px;
 }
@@ -19,13 +18,12 @@ h1 {
     color: cornflowerblue;
     font-size: 5vh;
     font-family: "Carter One", sans-serif;
+    padding: 2rem 0;
 }
 
 nav {
-    height: auto;
     width: 100%;
-    margin: auto;
-    padding: 2%;
+    padding: 1rem;
     text-align: center;
     background-color: crimson;
 }
@@ -39,6 +37,10 @@ nav a {
     background-color: white;
     text-decoration: none;
     color: black;
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .navbtn {
