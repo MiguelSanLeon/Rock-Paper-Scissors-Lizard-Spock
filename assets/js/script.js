@@ -124,7 +124,8 @@ function roundWinner(playerChoice, computerChoice) {
 /** Function to update score text */
 
 function updateScoreText() {
-
+computerWinsText.textContent = computerScore;
+playerWinsText.textContent = playerScore;
 }
 
 // Event listeners
