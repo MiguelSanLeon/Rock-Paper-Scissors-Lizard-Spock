@@ -74,7 +74,7 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2rem 0;
+    margin: 0.5rem 0;
 }
 
 .card {
@@ -84,6 +84,11 @@ nav a {
     border: 2px solid rgb(134, 17, 236);
     border-radius: 15px;
     margin: 0px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+
 }
 
 .card img {
@@ -103,7 +108,7 @@ nav a {
 .returnedText {
     background-color: white;
     border: 2px black solid;
-    height: 10vh;
+    height: 12vh;
     width: 15em;
     margin: auto;
 }
