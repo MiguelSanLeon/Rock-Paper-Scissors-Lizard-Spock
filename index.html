@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="styleSheet" href="assets/css/style.css">
     <!--favicon-->
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'>
     <title>Rock-Paper-Scissors-Lizard-Spock</title>
 </head>
 
@@ -17,11 +17,13 @@
         <nav>
             <ul>
                 <li>
-                    <a class="navbtn" id="startButton">New game</a>
+                    <button id="startButton">New game</button>
                 </li>
                 <li>
-                    <a class="navbtn" id="instrucctions">Instruccions</a>
+                    <a class="navbtn" href="#instrucctions">Instruccions</a>
                 </li>
+                <li>
+                    <a class="navbtn" href="#feedback">feedback</a>
             </ul>
         </nav>
     </header>
@@ -45,7 +47,7 @@
             <button class="playerButtons">Paper</button>
             <button class="playerButtons">Scissors</button>
             <button class="playerButtons">Lizard</button>
-            <button class="PlayerButtons">Spock</button>
+            <button class="playerButtons">Spock</button>
         </div>
 
         <div class="scoreTable">
@@ -53,7 +55,7 @@
                 <span>Computer wins <em id="computerWinsText">0</em></span>
             </div>
             <div>
-                <span>Player wins <em id="PlayerWinsText">0</em></span>
+                <span>Player wins <em id="playerWinsText">0</em></span>
             </div>
 
         </div>
