@@ -32,7 +32,7 @@ function startGame() {
 function playRound() {
     const playerChoice = this.textContent.toLowerCase();
     const computerChoice = getRandomChoice();
-    const result = determineWinner (playerChoice, computerChoice);
+    const result = determineWinner(playerChoice, computerChoice);
 
     displayCard(playerChoice, computerChoice);
     resultText.textContent = result;
@@ -54,19 +54,19 @@ function playRound() {
 
 function getRandomChoice() {
     const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
-    return choices [Math.floor(Math.random() * choices.length)];
+    return choices[Math.floor(Math.random() * choices.length)];
 }
 /** Function to display the choosen card */
 
-function displayCard (playerChoice, computerChoice) {
+function displayCard(playerChoice, computerChoice) {
     computerCard.innerHTML = `<img src="${getImagePath(computerChoice)}" alt ="${computerChoice}">`;
     playerCard.innerHTML = `<img src="${getImagePath(playerChoice)}" alt ="${playerChoice}">`;
 }
 /** Function to get the image path based on the choice */
 
-function getImagePath (choice) {
+function getImagePath(choice) {
     switch (choice) {
-        case 'rock' :
+        case 'rock':
             return 'rock.jpg';
         case 'paper':
             return 'paper.jpg';
@@ -83,8 +83,42 @@ function getImagePath (choice) {
 
 /** Function that determin the winner of a round */
 
-function roundWinner() {
-
+function roundWinner(playerChoice, computerChoice) {
+    if (playerChoice === computerChoice) {
+        return "It's a tie!";
+    }
+    switch (playerChoice) {
+        case 'rock':
+            if (computerChoice === 'scissors' || computerChoice === 'lizard') {
+                return "You win! Rock crushes " + computerChoice;
+            } else {
+                return "You lose! " + computerChoice + " vaporizes rock";
+            }
+        case 'paper':
+            if (computerChoice === 'rock' || computerChoice === 'spock') {
+                return "You win! Paper covers " + computerChoice;
+            } else {
+                return "You lose! " + computerChoice + " disproves paper";
+            }
+        case 'scissors':
+            if (computerChoice === 'paper' || computerChoice === 'lizard') {
+                return "You win! Scissors cuts " + computerChoice;
+            } else {
+                return "You lose! " + computerChoice + " smashes scissors";
+            }
+        case 'lizard':
+            if (computerChoice === 'paper' || computerChoice === 'spock') {
+                return "You win! Lizard eats " + computerChoice;
+            } else {
+                return "You lose! " + computerChoice + " causes indigestion";
+            }
+        case 'spock':
+            if (computerChoice === 'rock' || computerChoice === 'scissors') {
+                return "You win! Spock desintegrates" + computerChoice;
+            } else {
+                return "You lose! " + computerChoice + " destroys Spock";
+            }
+    }
 }
 
 /** Function to update score text */

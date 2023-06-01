@@ -11,6 +11,7 @@
 body {
     background-color: hsl(256, 89%, 22%);
     font-family: "Chakra Petch", sans-serif;
+    font-size: 18px;
 }
 
 h1 {
@@ -18,6 +19,33 @@ h1 {
     color: cornflowerblue;
     font-size: 5vh;
     font-family: "Carter One", sans-serif;
+}
+
+nav {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    background-color: crimson;
+}
+
+nav li {
+    display: inline;
+    margin: auto;
+}
+
+nav a {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.navbtn {
+    padding: 5px;
+    border-color: black;
+    border-radius: 15px;
+    font-family: "Chakra Petch", sans-serif;
 }
 
 .container {
