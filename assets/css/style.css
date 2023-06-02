@@ -37,9 +37,11 @@ h1 {
     font-family: "Carter One", sans-serif;
     padding: 1rem 0;
 }
+
 h2 {
     font-family: "Carter One", sans-serif;
 }
+
 h3 {
     text-decoration: underline;
 }
@@ -197,7 +199,7 @@ button:hover {
 
 /* Style rules section */
 #rules {
-    min-width:320px ;
+    min-width: 320px;
     max-width: 600px;
     width: fit-content;
     background-color: white;
@@ -205,23 +207,60 @@ button:hover {
     border-radius: 15px;
     text-align: center;
     padding: 5px;
-    margin:auto;
+    margin: auto;
 }
+
 .boxes {
     border: 2px solid black;
     border-radius: 15px;
     margin: 5px;
+    background-color: cornflowerblue;
 }
+
 .boxes p {
     padding: 15px;
     text-align: justify;
     font-size: 14px;
 
 }
-.boxes > ul {
+
+.boxes>ul {
     padding: 15px;
     text-align: justify;
     font-size: 14px;
     text-align: center;
-    }
+}
+
+/* Style Feedback form */
+
+#feedback {
+    min-width: 320px;
+    max-width: 600px;
+    width: fit-content;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    margin: auto;
+    position:relative
+}
+#feedback form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+label {
+    display: block;
+}
+input {
+    display: block;
+}
+textarea {
+    margin-bottom: 20px;
+}
+#feedback button {
+ width:fit-content;  
+ margin-top: 10px; 
+ padding:5px 30px;
 }
