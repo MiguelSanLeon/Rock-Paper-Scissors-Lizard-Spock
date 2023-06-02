@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', function () {
         updateScoreText();
         Array.from(playerButtons).forEach(button => button.disabled = false);
         resultText.textContent = "";
-        computerCard.innerHTML = "Computer Choice";
-        playerCard.innerHTML = "Player Choice";
+        computerCard.innerHTML = `<img src="assets/images/logo.png" alt="Rock, paper, scissors, lizard, spock logo">`;
+        playerCard.innerHTML = `<img src="assets/images/logo.png" alt="Rock, paper, scissors, lizard, spock logo">`;
     }
     /** Function to play a round in the game */
 
