@@ -28,10 +28,10 @@
                     <button id="startButton">New game</button>
                 </li>
                 <li>
-                    <a href="#rules">Rules</a>
+                    <a href="#rules" id="rulesLink">Rules</a>
                 </li>
                 <li>
-                    <a href="#feedback">Feedback</a>
+                    <a href="#feedback" id="feedbackLink">Feedback</a>
             </ul>
         </nav>
     </header>
@@ -111,7 +111,7 @@
         <button id="starGameButton">Start Game</button>
     </div>
     <div class="popUp" id="feedback">
-        <form class="FeedbackForm" action="http://formdump.codeinstitute.net" method="POST">
+        <form class="FeedbackForm" method="post" action="http://formdump.codeinstitute.net">
             <h2>Your opinion matters to us!</h2>
             <label for="name">Name</label>
             <input type="text" placeholder="Full Name" id="name" name="player-name" required aria-label="name">
@@ -120,7 +120,7 @@
             <label for="comment">Comment</label>
             <textarea id="comment" placeholder="Your comment..." name="comment" rows="4" required aria-label="comment"></textarea>
             <button type="submit">Send!</button>
-            <button id-="closeButton">Close</button>
+            <button id="closeButton">Close</button>
         </form>
     </div>
     <script src="assets/js/script.js"></script>

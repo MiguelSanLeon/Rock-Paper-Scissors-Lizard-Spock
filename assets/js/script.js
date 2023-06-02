@@ -8,6 +8,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const resultText = document.getElementById('resultText');
     const computerWinsText = document.getElementById('computerWinsText');
     const playerWinsText = document.getElementById('playerWinsText');
+    const rulesLink = document.getElementById('rulesLink');
+    const feedbackLink = document.getElementById('feedbackLink');
+    const rulesPopUp = document.getElementById('rules');
+    const feedbackPopUp = document.getElementById('feedback');
+    const startGameButton = document.getElementById('startGameButton');
+    const closeButton = document.getElementById('closeButton');
 
     // Game variables
     let computerScore = 0;
@@ -115,4 +121,12 @@ document.addEventListener('DOMContentLoaded', function () {
     // Event listeners
     startButton.addEventListener('click', startGame);
     Array.from(playerButtons).forEach(button => button.addEventListener('click', playRound));
+    rulesLink.addEventListener('click', function (event) {
+        event.preventDefault();
+        rulesPopUp.style.display = 'block';
+    });
+    feedbackLink.addEventListener('click', function (event) {
+        event.preventDefault();
+        feedbackPopUp.style.display = 'block';
+    });
 });
