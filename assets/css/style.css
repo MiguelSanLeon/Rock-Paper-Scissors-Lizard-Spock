@@ -1,12 +1,14 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Chakra+Petch&display=swap');
 
+/* Margin and padding set to 0 and box size to border-box */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Style body fonts, margin, padding */
 body {
     margin: 0;
     padding: 0;
@@ -14,6 +16,8 @@ body {
     font-family: "Chakra Petch", sans-serif;
     font-size: 18px;
 }
+
+/* Style for background video */
 
 #background {
     object-fit: fill;
@@ -25,6 +29,7 @@ body {
     z-index: -1;
 }
 
+/* Style headers*/
 h1 {
     text-align: center;
     color: cornflowerblue;
@@ -32,7 +37,14 @@ h1 {
     font-family: "Carter One", sans-serif;
     padding: 1rem 0;
 }
+h2 {
+    font-family: "Carter One", sans-serif;
+}
+h3 {
+    text-decoration: underline;
+}
 
+/* Style Navbar and its elements */
 nav {
     max-width: 100%;
     height: 14vh;
@@ -45,11 +57,13 @@ nav {
     border-radius: 15px;
 }
 
+/* Change navbars display to inline */
 nav li {
     display: inline;
     margin: auto;
 }
 
+/* Remove underscore line from anchor elements and style them like other buttons */
 nav a {
     background-color: white;
     text-decoration: none;
@@ -60,10 +74,20 @@ nav a {
     padding: 5px;
 }
 
+/* Style a element to get the same hover effect as the buttons */
+nav a:hover {
+    border: 2px solid chartreuse;
+    background-color: rgb(134, 17, 236);
+    transition: background-color 1.5s;
+    color: chartreuse;
+    transition: color 2s;
+}
+
+/* Style container */
 .container {
     width: 600px;
     max-width: 100%;
-    margin: 0 auto;
+    margin: auto;
     padding: 0.5rem;
     background-color: hsl(256, 95%, 15%);
     text-align: center;
@@ -71,13 +95,15 @@ nav a {
     border-radius: 15px;
 }
 
+/* Change cards div display to generate 2 columns */
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0.5rem 0;
+    margin-bottom: 0.5rem;
 }
 
+/* Style cards */
 .card {
     flex: 0 0 120px;
     height: 160px;
@@ -88,10 +114,10 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
 
 }
 
+/* Style playerTitles to fit over its card div */
 .playerTitles {
     display: flex;
     flex-wrap: wrap;
@@ -105,6 +131,7 @@ nav a {
     color: chartreuse;
 }
 
+/* Style the card image to fit in the card div */
 .card img {
     width: 100%;
     height: 100%;
@@ -112,33 +139,40 @@ nav a {
     border-radius: 15px;
 }
 
+/* Style the buttons section to display in a row */
 .buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0.5rem 0;
+    gap: 5px;
+    margin: 5px 0px 5px 0px;
 }
 
+/* Style returnedText div */
 .returnedText {
     background-color: white;
     border: 2px black solid;
     height: 12vh;
     width: 15em;
     margin: auto;
+    border-radius: 15px;
 }
 
+/* Style scoreTable */
 .scoreTable {
     background-color: rgb(134, 17, 236);
     height: auto;
-    width: 60%;
+    width: 15em;
     margin: auto;
     padding-top: 0.5rem 0;
     border: 2px solid black;
     border-radius: 15px;
     color: chartreuse;
+    text-align: center;
 
 }
 
+/* Style buttons */
 button {
     padding: 5px;
     border-color: black;
@@ -146,6 +180,48 @@ button {
     font-family: "Chakra Petch", sans-serif;
 }
 
+/* Style the hover effect for buttons with delay for a better result */
 button:hover {
     cursor: pointer;
+    border: 2px solid chartreuse;
+    background-color: rgb(134, 17, 236);
+    transition: background-color 1.5s;
+    color: chartreuse;
+    transition: color 2s;
+}
+
+/* Set the popUp div to hide them by default */
+.popUp {
+    /* display: none; */
+}
+
+/* Style rules section */
+#rules {
+    min-width:320px ;
+    max-width: 600px;
+    width: fit-content;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    margin:auto;
+}
+.boxes {
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 5px;
+}
+.boxes p {
+    padding: 15px;
+    text-align: justify;
+    font-size: 14px;
+
+}
+.boxes > ul {
+    padding: 15px;
+    text-align: justify;
+    font-size: 14px;
+    text-align: center;
+    }
 }

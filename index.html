@@ -18,7 +18,7 @@
 <body>
     <video playsinline autoplay muted loop preload="none" id="background">
         <source src="assets/images/mp4background.mp4" type="video/mp4">
-        <source src="assets/images/webmbackfround.webm" type="""video/webm">
+        <source src="assets/images/webmbackfround.webm" type="video/webm">
     </video>
     <header>
         <h1>ROCK-PAPER-SCISSORS-LIZARD-SPOCK</h1>
@@ -69,9 +69,9 @@
         </div>
     </div>
     <div class="popUp" id="rules">
+        <h2> Welcome to RPSLS game!</h2>
         <div class="popUpContent">
-            <h2> Welcome to RPSLS game!</h2>
-            <div class="columns">
+            <div class="boxes">
                 <h3>Game Story</h3>
                 <p>
                     This game is a variation of the famous rock-paper-scissors that first appeared in episode 8, second
@@ -82,18 +82,19 @@
                     Karen Bryla.
                 </p>
             </div>
-            <div class="columns">
+            <div class="boxes">
                 <h3>Instrucctions</h3>
                 <p>
                     In the game the computer and the player face each other revealing their choice at the same time. If
                     both chose the same
-                    one, it is considered a draw and will not increase the score of either of them. On the right you
+                    one, it is considered a draw and will not increase the score of either of them. Under this Instrucctions you
                     will find the table
                     that indicates the winner in each case. The best of 5 rounds wins the match.
                 </p>
             </div>
-            <div class="columns">
-                <ul>
+            <div class="boxes">
+                <h3>Rules</h3>
+                <ul style="list-style: none;">
                     <li>Rock smashes Scissors</li>
                     <li>Scissors cuts Lizard</li>
                     <li>Lizard eats Spock</li>
@@ -106,8 +107,8 @@
                     <li>Paper covers Rock</li>
                 </ul>
             </div>
-            <button id="starGameButton">Start Game</button>
-        </div>
+        </div>    
+        <button id="starGameButton">Start Game</button>
     </div>
     <div class="popUp" id="feedback">
         <form class="FeedbackForm" action="http://formdump.codeinstitute.net" method="POST">
