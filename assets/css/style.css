@@ -66,15 +66,8 @@ nav li {
 }
 
 /* Style a element to get the same hover effect as the buttons */
-/* nav a:hover {
-    border: 2px solid chartreuse;
-    background-color: rgb(134, 17, 236);
-    transition: background-color 1.5s;
-    color: chartreuse;
-    transition: color 2s;
-}*/
 
-nav a {
+a {
     padding: 0.3em 0.5em;
     border: none;
     outline: none;
@@ -91,7 +84,7 @@ nav a {
     font-family: 'Chakra Petch', sans-serif;
 }
 
-nav a:before {
+a:before {
     content: "";
     background: linear-gradient(45deg,
             #ff0000,
@@ -131,7 +124,7 @@ nav a:before {
     }
 }
 
-nav a:after {
+a:after {
     z-index: -1;
     content: "";
     position: absolute;
@@ -143,7 +136,7 @@ nav a:after {
     border-radius: 10px;
 }
 
-nav a:hover {
+a:hover {
     cursor: pointer;
     color: white;
     transition: color 1s;
@@ -239,24 +232,6 @@ nav a:hover {
     text-align: center;
 
 }
-
-/* Style buttons */
-/*button {
-    padding: 5px;
-    border-color: black;
-    border-radius: 15px;
-    font-family: "Chakra Petch", sans-serif;
-}*/
-
-/* Style the hover effect for buttons with delay for a better result */
-/*button:hover {
-    cursor: pointer;
-    border: 2px solid chartreuse;
-    background-color: rgb(134, 17, 236);
-    transition: background-color 1.5s;
-    color: chartreuse;
-    transition: color 2s;
-}*/
 
 /* Set the popUp div to hide them by default */
 .popUp {
@@ -418,7 +393,4 @@ button:hover {
     font-weight: bold;
     transition font-weight: 1s;
 }
-
-.show {
-    display: block;
-}
+ 
