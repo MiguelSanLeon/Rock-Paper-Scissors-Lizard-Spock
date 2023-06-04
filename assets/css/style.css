@@ -150,7 +150,7 @@ a:hover {
     max-width: 100%;
     margin: auto;
     padding: 0.5rem;
-    background-color: hsl(256, 95%, 15%);
+    background-color: #15024b;
     text-align: center;
     border: 6px solid black;
     border-radius: 15px;
@@ -221,14 +221,14 @@ a:hover {
 
 /* Style scoreTable */
 .scoreTable {
-    background-color: rgb(134, 17, 236);
+    background-color: #8611ec;
     height: auto;
     width: 15em;
     margin: auto;
     padding-top: 0.5rem 0;
     border: 2px solid black;
     border-radius: 15px;
-    color: chartreuse;
+    color: #7fff00;
     text-align: center;
 
 }
@@ -239,7 +239,7 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: #ffffff;
     border: 5px solid black;
     border-radius: 15px;
     padding: 30px;
@@ -263,7 +263,7 @@ a:hover {
     border: 2px solid black;
     border-radius: 15px;
     margin: 5px;
-    background-color: cornflowerblue;
+    background-color: #6495ed;
 }
 
 /* Style the paragraphs inside rules section */
@@ -288,7 +288,7 @@ a:hover {
     min-width: 320px;
     max-width: 600px;
     width: fit-content;
-    background-color: cornflowerblue;
+    background-color: #6495ed;
     border: 5px solid black;
     border-radius: 15px;
     padding: 30px;
@@ -325,7 +325,7 @@ button {
     padding: 0.3em 0.5em;
     border: none;
     outline: none;
-    color: rgb(134, 17, 236);
+    color: #8611ec;
     background: black;
     cursor: pointer;
     position: relative;

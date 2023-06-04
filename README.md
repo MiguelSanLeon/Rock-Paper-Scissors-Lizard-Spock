@@ -1,39 +1,79 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# ROCK-PAPER-SCISSORS-LIZARD-SPOCK
 
-Welcome,
+![ROCK-PAPER-SCISSORS-LIZARD-SPOCK mockup images]()
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Rock Paper Scissors Lizard Spock (RPSLS) is an extension of the classic game, Rock Paper Scissors, created by Sam Kass and Karen Bryla and first shown on TV on the American sitcom *The Big Bang Theory* when Raj and Sheldon decided to solve a disput using this game. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+On this website you can enjoy this game and play it against the computer, with a very simple user interface that takes care of all the details of the game.
 
-## Codeanywhere Reminders
+Visit the deployed website [here]().
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Table of Contents
 
-`python3 -m http.server`
+- [ROCK-PAPER-SCISSORS-LIZARD-SPOCK](#rock-paper-scissors-lizard-spock)
+  - [Table of Contents](#table-of-contents)
+  - [User Experience (UX)](#user-experience-ux)
+    - [Project Goals](#project-goals)
+    - [User Stories](#user-stories)
+    - [Color Scheme](#color-scheme)
+    - [Typography](#typography)
+    - [Wireframes](#wireframes)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+***
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## User Experience (UX)
 
-`http_server`
+### Project Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* The website has an easy to navigate structure.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* The color scheme is consistent with the background video.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Responsive design that allows a correct display of the website on multiple devices
 
-To log into the Heroku toolbelt CLI:
+* The interactivity of the website offers a complete user experience.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* The rules section provides all the necessary information about the game and how to play it, as well as a table of results to understand how to beat the computer.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* There is also a feedback section that allows the user to leave comments or their opinion about the game.
 
----
+### User Stories
 
-Happy coding!
+* As a player, I would like the game's website to be easy to navigate and understand.
+
+* As a player, I would love to have fun playing the game.
+
+* As a player, I would like to have a complete explanation of the game rules.
+
+* As a player, I would like the game controls to be easy to use.
+
+* As a player, I would like to know about the score and each round winner at any moment during the gameplay.
+
+* As a player, I would like to be able to play the game on different devices.
+
+### Color Scheme
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#15024b](https://via.placeholder.com/10/15024b?text=+) #15024b |
+| Example Color | ![#8611ec](https://via.placeholder.com/10/8611ec?text=+) #8611ec|
+| Example Color | ![#6495ed](https://via.placeholder.com/10/6495ed?text=+) #6495ed |
+| Example Color | ![#7fff00](https://via.placeholder.com/10/7fff00?text=+) #7fff00 |
+| Example Color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+
+The colors used in the site are white  ![#ffffff](https://via.placeholder.com/10/ffffff?text=+)(#ffffff) for some backgrounds, a ![#15024b](https://via.placeholder.com/10/15024b?text=+)(#15024b) for game container, navigation bar and errorpage container backgrounds, a ![#8611ec](https://via.placeholder.com/10/8611ec?text=+)(#8611ec) for score table background, a ![#6495ed](https://via.placeholder.com/10/6495ed?text=+)(#6495ed) for game title and rules boxes and feedback background and ![#7fff00](https://via.placeholder.com/10/7fff00?text=+)(#7fff00) score table text and computer and player titles.
+
+The colors scheme is inspired it the background video adding a yellow for a good title and text contrast.
+
+### Typography
+
+The main font used in the site is Chakra Petch, used with Carter One for the titles , with Sans Serif as the fallback font for both.
+
+### Wireframes
+
+[Balsamiq](https://balsamiq.com/) has been used to showcase the appearance of the site and display the placement of the different elements whitin the pages.
+
+Page | Wireframe
+--- | ---
+landing page | ![Landing page wireframe image](assets/readme-files/landing-page.png)
+Rules section | ![Rules wireframe image](assets/readme-files/rules-section.png)
