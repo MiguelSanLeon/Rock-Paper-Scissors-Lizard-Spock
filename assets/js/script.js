@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const resultText = document.getElementById('resultText');
     const computerWinsText = document.getElementById('computerWinsText');
     const playerWinsText = document.getElementById('playerWinsText');
-    const rulesLink = document.getElementById('rulesLink');
-    const feedbackLink = document.getElementById('feedbackLink');
-    const rulesPopUp = document.getElementById('rules');
-    const feedbackPopUp = document.getElementById('feedback');
-    const startGameButton = document.getElementById('startGameButton');
-    const closeButton = document.getElementById('closeButton');
+    const openRules = document.querySelector('#rulesLink');
+    const closeRules = document.querySelector('#closeRules');
+    const openFeedback = document.querySelector('#feedbackLink');
+    const closeFeedback = document.querySelector('#closeFeedback');
+    const rules = document.querySelector('#rules');
+    const feedback = document.querySelector('#feedback');
 
     // Game variables
     let computerScore = 0;
@@ -84,24 +84,28 @@ document.addEventListener('DOMContentLoaded', function () {
                 } else {
                     return "You lose! " + computerChoice + " vaporizes rock";
                 }
+                break;
             case 'paper':
                 if (computerChoice === 'rock' || computerChoice === 'spock') {
                     return "You win! Paper covers " + computerChoice;
                 } else {
                     return "You lose! " + computerChoice + " disproves paper";
                 }
+                break;
             case 'scissors':
                 if (computerChoice === 'paper' || computerChoice === 'lizard') {
                     return "You win! Scissors cuts " + computerChoice;
                 } else {
                     return "You lose! " + computerChoice + " smashes scissors";
                 }
+                break;
             case 'lizard':
                 if (computerChoice === 'paper' || computerChoice === 'spock') {
                     return "You win! Lizard eats " + computerChoice;
                 } else {
                     return "You lose! " + computerChoice + " causes indigestion";
                 }
+                break;
             case 'spock':
                 if (computerChoice === 'rock' || computerChoice === 'scissors') {
                     return "You win! Spock desintegrates " + computerChoice;
@@ -110,23 +114,27 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
         }
     }
-
+    
     /** Function to update score text */
 
     function updateScoreText() {
         computerWinsText.textContent = computerScore;
         playerWinsText.textContent = playerScore;
     }
-
+    
     // Event listeners
     startButton.addEventListener('click', startGame);
     Array.from(playerButtons).forEach(button => button.addEventListener('click', playRound));
-    rulesLink.addEventListener('click', function (event) {
-        event.preventDefault();
-        rulesPopUp.style.display = 'block';
+    openRules.addEventListener('click', function () {
+        rules.show();
     });
-    feedbackLink.addEventListener('click', function (event) {
-        event.preventDefault();
-        feedbackPopUp.style.display = 'block';
+    closeRules.addEventListener('click', function () {
+        rules.close();
     });
+    openFeedback.addEventListener('click', function (){
+        feedback.show();
+    });
+    closeFeedback.addEventListener('click', function () {
+        feedback.close();
+    }); 
 });

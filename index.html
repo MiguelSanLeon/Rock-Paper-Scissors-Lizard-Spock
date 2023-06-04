@@ -68,7 +68,7 @@
             </div>
         </div>
     </div>
-    <div class="popUp" id="rules">
+    <dialog class="popUp" id="rules">
         <h2> Welcome to RPSLS game!</h2>
         <div class="popUpContent">
             <div class="boxes">
@@ -108,10 +108,10 @@
                 </ul>
             </div>
         </div>    
-        <button id="starGameButton">Start Game</button>
-    </div>
-    <div class="popUp" id="feedback">
-        <form class="FeedbackForm" method="post" action="http://formdump.codeinstitute.net">
+        <button id="closeRules">Close</button>
+    </dialog>
+    <dialog class="popUp" id="feedback">
+        <form class="FeedbackForm" method="get" action="errorpage.html">
             <h2>Your opinion matters to us!</h2>
             <label for="name">Name</label>
             <input type="text" placeholder="Full Name" id="name" name="player-name" required aria-label="name">
@@ -120,9 +120,9 @@
             <label for="comment">Comment</label>
             <textarea id="comment" placeholder="Your comment..." name="comment" rows="4" required aria-label="comment"></textarea>
             <button type="submit">Send!</button>
-            <button id="closeButton">Close</button>
+            <button id="closeFeedback">Close</button>
         </form>
-    </div>
+    </dialog>
     <script src="assets/js/script.js"></script>
 </body>
 
