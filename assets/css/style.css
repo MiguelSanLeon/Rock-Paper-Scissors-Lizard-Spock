@@ -243,6 +243,8 @@ a:hover {
     border: 5px solid black;
     border-radius: 15px;
     padding: 30px;
+    height: 550px;
+    overflow-y: auto;
 }
 
 /* Style rules section */
@@ -255,7 +257,7 @@ a:hover {
     border-radius: 15px;
     text-align: center;
     padding: 5px;
-    margin: auto;
+    margin-top: 2em;
 }
 
 /* Style boxes inside rules section */
@@ -292,7 +294,6 @@ a:hover {
     border: 5px solid black;
     border-radius: 15px;
     padding: 30px;
-    margin: auto;
 }
 
 /* Style the feedback form to display in a column */

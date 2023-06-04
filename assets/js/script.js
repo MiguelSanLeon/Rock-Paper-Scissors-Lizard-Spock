@@ -134,7 +134,8 @@ document.addEventListener('DOMContentLoaded', function () {
     openFeedback.addEventListener('click', function (){
         feedback.show();
     });
-    closeFeedback.addEventListener('click', function () {
+    closeFeedback.addEventListener('click', function (event) {
+        event.preventDefault();
         feedback.close();
     }); 
 });
