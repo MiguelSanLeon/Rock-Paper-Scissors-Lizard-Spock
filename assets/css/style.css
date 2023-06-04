@@ -233,7 +233,7 @@ a:hover {
 
 }
 
-/* Set the popUp div to hide them by default */
+/* Set the popUp div  */
 .popUp {
     position: fixed;
     top: 50%;
@@ -243,7 +243,6 @@ a:hover {
     border: 5px solid black;
     border-radius: 15px;
     padding: 30px;
-    z-index: 9999;
 }
 
 /* Style rules section */
@@ -259,6 +258,7 @@ a:hover {
     margin: auto;
 }
 
+/* Style boxes inside rules section */
 .boxes {
     border: 2px solid black;
     border-radius: 15px;
@@ -266,6 +266,7 @@ a:hover {
     background-color: cornflowerblue;
 }
 
+/* Style the paragraphs inside rules section */
 .boxes p {
     padding: 15px;
     text-align: justify;
@@ -273,6 +274,7 @@ a:hover {
 
 }
 
+/* Style unordered list to look like paragraphs in rules section */
 .boxes>ul {
     padding: 15px;
     text-align: justify;
@@ -293,6 +295,7 @@ a:hover {
     margin: auto;
 }
 
+/* Style the feedback form to display in a column */
 #feedback form {
     display: flex;
     flex-direction: column;
@@ -393,4 +396,21 @@ button:hover {
     font-weight: bold;
     transition font-weight: 1s;
 }
- 
+
+/* Style errorpage */
+/* Style errorContainer to center it */
+
+#errorContainer {
+    margin-top: 10%;
+}
+#errorTitle h2{
+    color: white;
+    margin: 1em;
+}
+#errorText h3 {
+    color: white;
+    margin: 1em;
+}
+#errorText {
+    margin: 1em;
+}
