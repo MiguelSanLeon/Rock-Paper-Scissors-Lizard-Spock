@@ -289,7 +289,7 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
 
     - **index.html**
 
-    ![Lighthouse report for landing page image](assets/readme-files/index-lighthouse-report.png.png)
+    ![Lighthouse report for landing page image](assets/readme-files/index-lighthouse-report.png)
 
     - **errorpage.html**
 
