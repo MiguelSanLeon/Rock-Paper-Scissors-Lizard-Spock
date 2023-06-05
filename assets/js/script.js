@@ -83,25 +83,25 @@ document.addEventListener('DOMContentLoaded', function () {
                     return "You win! Rock crushes " + computerChoice;
                 } else {
                     return "You lose! " + computerChoice + " vaporizes rock";
-                };
+                } break;
             case 'paper':
                 if (computerChoice === 'rock' || computerChoice === 'spock') {
                     return "You win! Paper covers " + computerChoice;
                 } else {
                     return "You lose! " + computerChoice + " disproves paper";
-                };
+                } break;
             case 'scissors':
                 if (computerChoice === 'paper' || computerChoice === 'lizard') {
                     return "You win! Scissors cuts " + computerChoice;
                 } else {
                     return "You lose! " + computerChoice + " smashes scissors";
-                };
+                } break;
             case 'lizard':
                 if (computerChoice === 'paper' || computerChoice === 'spock') {
                     return "You win! Lizard eats " + computerChoice;
                 } else {
                     return "You lose! " + computerChoice + " causes indigestion";
-                };
+                } break;
             case 'spock':
                 if (computerChoice === 'rock' || computerChoice === 'scissors') {
                     return "You win! Spock desintegrates " + computerChoice;
