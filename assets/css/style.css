@@ -79,7 +79,6 @@ a {
     z-index: 0;
     border-radius: 10px;
     user-select: none;
-    -webkit-user-select: none;
     touch-action: manipulation;
     text-decoration: none;
     font-family: 'Chakra Petch', sans-serif;
@@ -103,7 +102,6 @@ a:before {
     background-size: 400%;
     z-index: -1;
     filter: blur(5px);
-    -webkit-filter: blur(5px);
     width: calc(100% + 4px);
     height: calc(100% + 4px);
     animation: glowing-buttons 20s linear infinite;
@@ -332,7 +330,6 @@ button {
     z-index: 0;
     border-radius: 10px;
     user-select: none;
-    -webkit-user-select: none;
     touch-action: manipulation;
     font-family: 'Chakra Petch', sans-serif;
 }
@@ -355,7 +352,6 @@ button:before {
     background-size: 400%;
     z-index: -1;
     filter: blur(5px);
-    -webkit-filter: blur(5px);
     width: calc(100% + 4px);
     height: calc(100% + 4px);
     animation: glowing-buttons 20s linear infinite;

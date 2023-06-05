@@ -215,4 +215,46 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
 
 ### Testing User Stories
 
-*  
+ * As a player, I would like the game's website to be easy to navigate and understand.
+
+    - The navigation bar allows the player to navigate through all sections.
+    - The player can come back from any page or section in the web to the landing page.
+    - A popup system has been implemented to have a better navigation on the page.
+  
+* As a player, I would love to have fun playing the game.
+
+    - The game use images to show the computer and player choice and has a result section that offers feedback of the game status at all times.
+    - The error page shows a funny gif to enjoy even the most bitter situation.
+    - In the Rules section players can find a game story section that describes the reason why this game became known.
+
+* As a player, I would like to have a complete explanation of the game rules.
+
+    - The rules secttion offers 2 section that have easy instrucctions to understand the game logic.
+
+* As a player, I would like the game controls to be easy to use.
+
+    - The button section in the game section allows the player to make a choice to play the game each round.
+    - The navigation bar is easy to use and undestand to navigate through the web.
+* As a player, I would like to know about the score and each round winner at any moment during the gameplay.
+    
+    - The scoreboard section allways shows the game score.
+
+* As a player, I would like to be able to play the game on different devices.
+
+    - The web is fully responsive in all devices and it has a landscape view block for a better responsiveness.
+
+    ### Code Validation
+
+* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
+
+    - W3C Markup Validator found no erros or warnings on index.html
+    - W3C Markup Validator found no erros or warnings on errorpage.html
+  
+    -  W3C CSS Validator found an error on line 229 padding-top, to many values or values not recognized.
+    -  W3C CSS Validator also shows 5 warnings:
+        -2	 Imported style sheets are not checked in direct input and file upload modes
+       - 82	 webkit-user-select is a vendor extension
+       - 106 webkit-filter is a vendor extension
+       - 335 webkit-user-select is a vendor extension
+       - 358 webkit-filter is a vendor extension
+
