@@ -6,7 +6,7 @@ Rock Paper Scissors Lizard Spock (RPSLS) is an extension of the classic game, Ro
 
 On this website you can enjoy this game and play it against the computer, with a very simple user interface that takes care of all the details of the game.
 
-Visit the deployed website [here]().
+Visit the deployed website [here](assets/readme-files/mockuprpsls.png).
 
 ## Table of Contents
 
@@ -21,6 +21,15 @@ Visit the deployed website [here]().
   - [Features](#features)
     - [General](#general)
     - [Home Section](#home-section)
+    - [Rules Section](#rules-section)
+    - [Feedback Section](#feedback-section)
+    - [Game section](#game-section)
+    - [Error Page](#error-page)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+  - [Testing](#testing)
+    - [Testing User Stories](#testing-user-stories)
 
 ***
 
@@ -83,7 +92,7 @@ Rules section | ![Rules wireframe image](assets/readme-files/rules-section.png)
 feedback section| ![feedback wireframe image](assets/readme-files/feedback-section.png)
 error page | ![Error page wireframe image](assets/readme-files/error-page.png)
 
-[Back to top ⇧](#rpsls)
+[Back to top ⇧](#rock-paper-scissors-lizard-spock)
 
 
 ## Features
@@ -120,6 +129,90 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
     - The title is on top of the home section centered and fully responsive.
 
 * **Navigation Buttons**
-    - The New game button starts the game showing the game logo in both card slots and activates the player buttons section.
+    - The New game button starts the game showing the game logo in both card slots and activates the player buttons section. In the result section the player can read "Make your choice with the buttons!"
+    - The rules button opens the rules section.
 
-   
+    - The feedback button open the feedback popup.
+
+
+### Rules Section
+![Rules section image](assets/readme-files/rules-section-img.png)
+
+* The Rules section has 3 parts, the game story, the instrucctions and the rules, providing all the information to players.
+
+### Feedback Section
+![Feedback section image](assets/readme-files/feedback-section-img.png)
+
+* The feedback section is a simple form that consists of three fields, name, email and comments. just below that, players can find a button to send the content of the form and another button to exit if the player do not want to fill in the form.
+* 
+### Game section
+![Game section gif](assets/readme-files/game-section-img.png)
+
+* **Cards Section**
+    - Display item chosen by the computer and the player on each round using and image
+
+* **Result Section**
+    - Shows the result of each round and the reason why the winner beats the loser
+
+* **Game Buttons**
+    - Allow the player to select the item to be used in the next round.
+  - 
+* **Scoreboard**
+    - Shows the number of rounds each player has win before the end of the game. When one of the players wins 5 round, the scoreboard is reset to 0.
+
+### Error Page
+![Error page image](assets/readme-files/error-page-img.png)
+
+*  This single page is being shown when the player push the send button on the feedback section. It has a button to come back to the landing page.
+
+[Back to top ⇧](#rock-paper-scissors-lizard-spock)
+
+## Technologies Used
+
+### Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Frameworks, Libraries and Programs Used
+
+* [Google Fonts](https://fonts.google.com/)
+    - Google Fonts was used to import the fonts Carter One and Chakra Petch into the style.css file. These fonts were used throughout the site.
+
+* [Codeanywhere](https://app.codeanywhere.com/)
+     - Codeanywhere was used for writing code, committing, and then pushing to GitHub.
+
+* [GitHub](https://github.com/)
+     - GitHub was used to store the project after pushing.
+
+* [Balsamiq](https://balsamiq.com/)
+     - Balsamiq was used to create the wireframes during the design phase of the project.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/#)
+    - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+
+* [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+    - Responsive Design Checker was used in the testing process to check responsiveness on various devices.
+
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    - Chrome DevTools was used during development process for code review and to test responsiveness.
+
+* [W3C Markup Validator](https://validator.w3.org/)
+    - W3C Markup Validator was used to validate the HTML code.
+
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - W3C CSS Validator was used to validate the CSS code.
+
+* [JSHint](https://jshint.com/) 
+    - The JSHints JavaScript Code Quality Tool was used to validate the site's JavaScript code.
+
+* [Favicon.cc](https://www.favicon.cc/) 
+    - Favicon.cc was used to create the site favicon.
+
+[Back to top ⇧](#rock-paper-scissors-lizard-spock)
+
+## Testing
+
+### Testing User Stories
+
+*  
