@@ -122,13 +122,13 @@ document.addEventListener('DOMContentLoaded', function () {
     startButton.addEventListener('click', startGame);
     Array.from(playerButtons).forEach(button => button.addEventListener('click', playRound));
     openRules.addEventListener('click', function () {
-        rules.show();
+        rules.showModal();
     });
     closeRules.addEventListener('click', function () {
         rules.close();
     });
     openFeedback.addEventListener('click', function () {
-        feedback.show();
+        feedback.showModal();
     });
     closeFeedback.addEventListener('click', function (event) {
         event.preventDefault();
