@@ -318,7 +318,7 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
 Browser | Outcome | Pass/Fail  
 --- | --- | ---
 Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
-Safari | No appearance, responsiveness nor functionality issues.
+Safari | No appearance, responsiveness nor functionality issues. | Pass
 Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
 
 
@@ -340,26 +340,24 @@ iPhone 7 | No appearance, responsiveness nor functionality issues. | Pass
 
     Feature | Outcome | Pass/Fail
     --- | --- | ---
-    Navigation Bar | Hover effect is not doing the transition as expected. Links are working as expected. | Fail
+    Navigation Bar | Hover effect is working as expected. Links are working as expected. | Pass
     Landscape Orientation Blocker | when device is turned to landscape orientation, the screen show vertical orientation | Pass
 
     - Landing Section
     
     Feature | Outcome | Pass/Fail
     --- | --- | ---
-    New Game Button | Hover effect, not doing the transition. Start the game showing the logo in card section when button is clicked, work as expected. | Pass
-    Rules button | Hover effect not doing the transition Ok. Rules pop-up is shown when button is clicked | Pass
-    Feedback Button | Hover effect not doing transition as expected. The button opens a feedback form pop-up when clicked. | Pass
-    
-    ** The problems with the transition in the buttons did not occur until the last commits, the developer will try to solve it after the delivery date due to lack of time.**
-    
+    New Game Button | Hover effect is working properly. Start the game showing the logo in card section when button is clicked, work as expected. | Pass
+    Rules button | Hover effect working Ok. Rules pop-up is shown when button is clicked | Pass
+    Feedback Button | Hover effect working as expected. The button opens a feedback form pop-up when clicked. | Pass
+        
     - Feedback Form Pop-up
     
     Feature | Outcome | Pass/Fail
     --- | --- | ---
     Form | require all fields in the right format before submission. |  Pass
-    Send Feedback Button | Hover effect not doing transitions as expected. Submit form when clicked and shows error page as expected |  Pass
-    Close Button | Hover effect not doing transitions as expected. Close pop-up when clicked. | Pass
+    Send Feedback Button | Hover effect working as expected. Submit form when clicked and shows error page as expected |  Pass
+    Close Button | Hover effect working as expected. Close pop-up when clicked. | Pass
 
     - Game Section
 

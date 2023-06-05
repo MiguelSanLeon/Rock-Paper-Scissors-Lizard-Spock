@@ -137,10 +137,8 @@ a:after {
 
 a:hover {
     cursor: pointer;
-    color: white;
-    transition: color 1s;
-    font-weight: bold;
-    transition: font-weight 1s;
+    color: chartreuse;
+    transition: color 1s linear;
 }
 
 /* Style container */
@@ -320,7 +318,7 @@ textarea {
 
 /* Style buttons class */
 button {
-    padding: 0.3em 0.5em;
+    padding: 0.35em 0.5em;
     border: none;
     outline: none;
     color: #8611ec;
@@ -387,10 +385,8 @@ button:after {
 
 button:hover {
     cursor: pointer;
-    color: white;
-    transition: color 1s;
-    font-weight: bold;
-    transition: font-weight 1s;
+    color: chartreuse;
+    transition: color 1.5s linear;
 }
 
 /* Style errorpage */
