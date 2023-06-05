@@ -1,10 +1,10 @@
 # ROCK-PAPER-SCISSORS-LIZARD-SPOCK
 
-![ROCK-PAPER-SCISSORS-LIZARD-SPOCK mockup images](assets/readme-files/mockuprpsls.png)
+![ROCK-PAPER-SCISSORS-LIZARD-SPOCK mock up images](assets/readme-files/mockuprpsls.png)
 
-Rock Paper Scissors Lizard Spock (RPSLS) is an extension of the classic game, Rock Paper Scissors, created by Sam Kass and Karen Bryla and first shown on TV on the American sitcom *The Big Bang Theory* when Raj and Sheldon decided to solve a disput using this game. 
+Rock Paper Scissors Lizard Spock (RPSLS) is an extension of the classic game, Rock Paper Scissors, created by Sam Kass and Karen Bryla and first shown on TV on the American sitcom *The Big Bang Theory* when Raj and Sheldon decided to solve a dispute using this game. 
 
-On this website you can enjoy this game and play it against the computer, with a very simple user interface that takes care of all the details of the game.
+On this website, players can enjoy this game and play it against the computer, with a very simple user interface that takes care of all the details of the game.
 
 Visit the deployed website [here](https://miguelsanleon.github.io/Rock-Paper-Scissors-Lizard-Spock/).
 
@@ -15,7 +15,7 @@ Visit the deployed website [here](https://miguelsanleon.github.io/Rock-Paper-Sci
   - [User Experience (UX)](#user-experience-ux)
     - [Project Goals](#project-goals)
     - [User Stories](#user-stories)
-    - [Color Scheme](#color-scheme)
+    - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
     - [Wireframes](#wireframes)
   - [Features](#features)
@@ -49,7 +49,7 @@ Visit the deployed website [here](https://miguelsanleon.github.io/Rock-Paper-Sci
 
 * The website has an easy to navigate structure.
 
-* The color scheme is consistent with the background video.
+* The colour scheme is consistent with the background video.
 
 * Responsive design that allows a correct display of the website on multiple devices
 
@@ -73,19 +73,19 @@ Visit the deployed website [here](https://miguelsanleon.github.io/Rock-Paper-Sci
 
 * As a player, I would like to be able to play the game on different devices.
 
-### Color Scheme
+### Colour Scheme
 
-| Color             | Hex                                                                |
+| Colour             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#15024b](https://via.placeholder.com/10/15024b?text=+) #15024b |
-| Example Color | ![#8611ec](https://via.placeholder.com/10/8611ec?text=+) #8611ec|
-| Example Color | ![#6495ed](https://via.placeholder.com/10/6495ed?text=+) #6495ed |
-| Example Color | ![#7fff00](https://via.placeholder.com/10/7fff00?text=+) #7fff00 |
-| Example Color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| Example Colour | ![#15024b](https://via.placeholder.com/10/15024b?text=+) #15024b |
+| Example Colour | ![#8611ec](https://via.placeholder.com/10/8611ec?text=+) #8611ec|
+| Example Colour | ![#6495ed](https://via.placeholder.com/10/6495ed?text=+) #6495ed |
+| Example Colour | ![#7fff00](https://via.placeholder.com/10/7fff00?text=+) #7fff00 |
+| Example Colour | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 
-The colors used in the site are white  ![#ffffff](https://via.placeholder.com/10/ffffff?text=+)(#ffffff) for some backgrounds, a ![#15024b](https://via.placeholder.com/10/15024b?text=+)(#15024b) for game container, navigation bar and errorpage container backgrounds, a ![#8611ec](https://via.placeholder.com/10/8611ec?text=+)(#8611ec) for score table background, a ![#6495ed](https://via.placeholder.com/10/6495ed?text=+)(#6495ed) for game title and rules boxes and feedback background and ![#7fff00](https://via.placeholder.com/10/7fff00?text=+)(#7fff00) score table text and computer and player titles.
+The colours used in the site are white  ![#ffffff](https://via.placeholder.com/10/ffffff?text=+)(#ffffff) for some backgrounds, a ![#15024b](https://via.placeholder.com/10/15024b?text=+)(#15024b) for game container, navigation bar and error page container backgrounds, a ![#8611ec](https://via.placeholder.com/10/8611ec?text=+)(#8611ec) for score table background, a ![#6495ed](https://via.placeholder.com/10/6495ed?text=+)(#6495ed) for game title and rules boxes and feedback background and ![#7fff00](https://via.placeholder.com/10/7fff00?text=+)(#7fff00) score table text and computer and player titles.
 
-The colors scheme is inspired it the background video adding a yellow for a good title and text contrast.
+The colours scheme is inspired it the background video, adding a yellow for a good title and text contrast.
 
 ### Typography
 
@@ -93,7 +93,7 @@ The main font used in the site is Chakra Petch, used with Carter One for the tit
 
 ### Wireframes
 
-[Balsamiq](https://balsamiq.com/) has been used to showcase the appearance of the site and display the placement of the different elements whitin the pages.
+[Balsamiq](https://balsamiq.com/) has been used to showcase the appearance of the site and display the placement of the different elements within the pages.
 
 Page | Wireframe
 --- | ---
@@ -123,9 +123,9 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
 ![Game section](assets/readme-files/game-section.png)
 
 - The game section contains the titles "computer" and "player" on top of the slots for the game cards, the item selection buttons for the player, a text box for the game results and finally a scoreboard that is updated after each round. 
-- The card slots shows the computer and player selection respectively.
+- The card slots show the computer and player selection, respectively.
 - The buttons section shows the 5 different choices the player has.
-- The result text box show who wins the round and why the winner card beats the other one. When one of the players wins 5 round, the result box shows who wins and the text "GAME OVER!".
+- The result text box show who wins the round and why the winner card beats the other one. When one of the players wins 5 round, the result box shows who win and the text "GAME OVER!".
 - the scoreboard shows at all times how many rounds the computer and the player have won at all times.
 
 * **Background**
@@ -136,24 +136,24 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
 ![Home section image](assets/readme-files/home-section.png)
 
 * **Title**
-    - The title is on top of the home section centered and fully responsive.
+    - The title is on top of the home section, centred and fully responsive.
 
 * **Navigation Buttons**
-    - The New game button starts the game showing the game logo in both card slots and activates the player buttons section. In the result section the player can read "Make your choice with the buttons!"
+    - The New game button starts the game, showing the game logo in both card slots, and activates the player buttons section. In the result section, the player can read "Make your choice with the buttons!"
     - The rules button opens the rules section.
 
-    - The feedback button open the feedback popup.
+    - The feedback button open the feedback pop-up.
 
 
 ### Rules Section
 ![Rules section image](assets/readme-files/rules-section-img.png)
 
-* The Rules section has 3 parts, the game story, the instrucctions and the rules, providing all the information to players.
+* The Rules section has 3 parts, the game story, the instructions and the rules, providing all the information to players.
 
 ### Feedback Section
 ![Feedback section image](assets/readme-files/feedback-section-img.png)
 
-* The feedback section is a simple form that consists of three fields, name, email and comments. just below that, players can find a button to send the content of the form and another button to exit if the player do not want to fill in the form.
+* The feedback section is a simple form that consists of three fields, name, email and comments. Just below that, players can find a button to send the content of the form and another button to exit if the player does not want to fill in the form.
 * 
 ### Game section
 ![Game section gif](assets/readme-files/game-section-img.png)
@@ -168,12 +168,12 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
     - Allow the player to select the item to be used in the next round.
   - 
 * **Scoreboard**
-    - Shows the number of rounds each player has win before the end of the game. When one of the players wins 5 round, the scoreboard is reset to 0.
+    - Shows the number of rounds each player has won before the end of the game. When one of the players wins 5 round, the scoreboard is reset to 0.
 
 ### Error Page
 ![Error page image](assets/readme-files/error-page-img.png)
 
-*  This single page is being shown when the player push the send button on the feedback section. It has a button to come back to the landing page.
+*  This single page is being shown when the player pushes the send button on the feedback section. It has a button to come back to the landing page.
 
 [Back to top ⇧](#rock-paper-scissors-lizard-spock)
 
@@ -182,7 +182,7 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
 ### Languages Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
-* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries and Programs Used
 
@@ -199,7 +199,7 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
      - Balsamiq was used to create the wireframes during the design phase of the project.
 
 * [Am I Responsive?](http://ami.responsivedesign.is/#)
-    - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+    - Am I Responsive was used in order to see responsive design throughout the process and to generate mock-up imagery to be used.
 
 * [Responsive Design Checker](https://www.responsivedesignchecker.com/)
     - Responsive Design Checker was used in the testing process to check responsiveness on various devices.
@@ -214,7 +214,7 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
     - W3C CSS Validator was used to validate the CSS code.
 
 * [JSHint](https://jshint.com/) 
-    - The JSHints JavaScript Code Quality Tool was used to validate the site's JavaScript code.
+    - The JSHint JavaScript Code Quality Tool was used to validate the site's JavaScript code.
 
 * [Favicon.cc](https://www.favicon.cc/) 
     - Favicon.cc was used to create the site favicon.
@@ -228,37 +228,37 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
  * As a player, I would like the game's website to be easy to navigate and understand.
 
     - The navigation bar allows the player to navigate through all sections.
-    - The player can come back from any page or section in the web to the landing page.
-    - A popup system has been implemented to have a better navigation on the page.
+    - The player can come back from any page or section on the web to the landing page.
+    - A pop-up system has been implemented to have a better navigation on the page.
   
 * As a player, I would love to have fun playing the game.
 
     - The game use images to show the computer and player choice and has a result section that offers feedback of the game status at all times.
     - The error page shows a funny gif to enjoy even the most bitter situation.
-    - In the Rules section players can find a game story section that describes the reason why this game became known.
+    - In the Rules section, players can find a game story section that describes the reason why this game became known.
 
 * As a player, I would like to have a complete explanation of the game rules.
 
-    - The rules secttion offers 2 section that have easy instrucctions to understand the game logic.
+    - The rules section offers 2 sections that have easy instructions to understand the game logic.
 
 * As a player, I would like the game controls to be easy to use.
 
     - The button section in the game section allows the player to make a choice to play the game each round.
-    - The navigation bar is easy to use and undestand to navigate through the web.
+    - The navigation bar is easy to use and understand, navigating through the web.
 * As a player, I would like to know about the score and each round winner at any moment during the gameplay.
     
-    - The scoreboard section allways shows the game score.
+    - The scoreboard section always shows the game score.
 
 * As a player, I would like to be able to play the game on different devices.
 
-    - The web is fully responsive in all devices and it has a landscape view block for a better responsiveness.
+    - The web is fully responsive in all devices, and it has a landscape view block for a better responsiveness.
 
     ### Code Validation
 
 * The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
 
-    - W3C Markup Validator found no erros or warnings on index.html
-    - W3C Markup Validator found no erros or warnings on errorpage.html
+    - W3C Markup Validator found no errors or warnings on index.html
+    - W3C Markup Validator found no errors or warnings on errorpage.html
   
     -  W3C CSS Validator found an error on line 229 padding-top, to many values or values not recognized.
     -  W3C CSS Validator also shows 5 warnings:
@@ -268,22 +268,22 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
        - 335 webkit-user-select is a vendor extension
        - 358 webkit-filter is a vendor extension
 
-* The [JSHints JavaScript Code Quality Tool](https://jshint.com/) was used validate the site's JavaScript code.
+* The [JSHint JavaScript Code Quality Tool](https://jshint.com/) was used to validate the site's JavaScript code.
 
-    - JSHints found 8 warnings:
-        - 86	Unnecessary semicolon.
+    - JSHint found 8 warnings:
+        - 86	Unnecessary semicolons.
         - 86	Expected a 'break' statement before 'case'.
-        - 92	Unnecessary semicolon.
+        - 92	Unnecessary semicolons.
         - 92	Expected a 'break' statement before 'case'.
-        - 98	Unnecessary semicolon.
+        - 98	Unnecessary semicolons.
         - 98	Expected a 'break' statement before 'case'.
-        - 104	Unnecessary semicolon.
+        - 104	Unnecessary semicolons.
         - 104	Expected a 'break' statement before 'case'.
 
 
 ### Accessibility
 
-** Used Lighthouse in Chrome DevTools to check performance, accesibility, best practices and SEO
+** Used Lighthouse in Chrome DevTools to check performance, accessibility, best practices and SEO
 
 * Lighthouse reports
 
@@ -299,11 +299,11 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 
-    - Chrome DevTools was used during the development process to check css style, modify html anc css and improve the website view.
+    - Chrome DevTools was used during the development process to check CSS style, modify HTML and CSS and improve the website view.
 
 * Responsiveness
 
-    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages using different devices.
+    - [Am I Responsive?](http://ami.responsivedesign.is/#).It was used to check responsiveness of the site pages using different devices.
 
     - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness of the site pages on different screen sizes.
 
@@ -340,32 +340,31 @@ iPhone 7 | No appearance, responsiveness nor functionality issues. | Pass
 
     Feature | Outcome | Pass/Fail
     --- | --- | ---
-    Navigation Bar | Hover effect is not doing the trasition as expected. Links are working as expected. | Fail
-    Landscape Orientation Blocker | when device is turned to landscape orientation the screen show vertical orientation | Pass
+    Navigation Bar | Hover effect is not doing the transition as expected. Links are working as expected. | Fail
+    Landscape Orientation Blocker | when device is turned to landscape orientation, the screen show vertical orientation | Pass
 
     - Landing Section
     
     Feature | Outcome | Pass/Fail
     --- | --- | ---
-    New Game Button | Hover effect not doing the transition. Start the game showing the logo in card section when button is clicked, work as expected. | Pass
-    Rules button | Hover effect not doing the transition ok. Rules popup is shown when button is clicked | Pass
-    Feedback Button | Hover effect not doing transition as expected. Buttomn opens feedback form popup when clicked. | Pass
+    New Game Button | Hover effect, not doing the transition. Start the game showing the logo in card section when button is clicked, work as expected. | Pass
+    Rules button | Hover effect not doing the transition Ok. Rules pop-up is shown when button is clicked | Pass
+    Feedback Button | Hover effect not doing transition as expected. The button opens a feedback form pop-up when clicked. | Pass
     
     ** The problems with the transition in the buttons did not occur until the last commits, the developer will try to solve it after the delivery date due to lack of time.**
     
-    - Feedback Form Popup
+    - Feedback Form Pop-up
     
     Feature | Outcome | Pass/Fail
     --- | --- | ---
-    Form | Require all fields in the right format before submission. |  Pass
-    Send Feedback Button | Hover effect not doing transitions as expected. Submit form when cicked and shows errorpage as expected |  Pass
-    Close Button | Hover effect not doing transitions as expected. Close popup when clicked. | Pass
+    Form | require all fields in the right format before submission. |  Pass
+    Send Feedback Button | Hover effect not doing transitions as expected. Submit form when clicked and shows error page as expected |  Pass
+    Close Button | Hover effect not doing transitions as expected. Close pop-up when clicked. | Pass
 
     - Game Section
 
     Feature | Outcome | Pass/Fail
     --- | --- | ---
-
     Computer Card | Display the image of the item generated by the computer. | Pass
     Plater Card | Display the image of the item chosen by the player. | Pass
     Result Section | Display the expected text depending on the round result. | Pass
@@ -377,7 +376,7 @@ iPhone 7 | No appearance, responsiveness nor functionality issues. | Pass
 
     Feature | Outcome | Pass/Fail
     --- | --- | ---
-    Error page | When the player send the form is redirected to error page. | Pass
+    Error page | When the player sends the form is redirected to error page. | Pass
     Home Button |link to home section when button is clicked work as expected. | Pass
 
 [Back to top ⇧](#rock-paper-scissors-lizard-spock)
@@ -394,7 +393,7 @@ iPhone 7 | No appearance, responsiveness nor functionality issues. | Pass
 
     2. At the top of the Repository, locate the Settings button on the menu.
 
-    3. Scroll down the Settings page until you locate the Pages section. It can be display in a separate bar in the left of the screen.
+    3. Scroll down the Settings page until you locate the Pages section. It can be displayed in a separate bar in the left of the screen.
 
     4. Under Source, click the dropdown called None and select Master/Main Branch.
 
@@ -412,7 +411,7 @@ iPhone 7 | No appearance, responsiveness nor functionality issues. | Pass
 
 - The logo image used as Card was taken from [StackExchange](https://codegolf.stackexchange.com/questions/195083/cheat-at-rock-paper-scissors-lizard-spock)
 - The rock image used as Card was taken from [Pexel](https://www.pexels.com/photo/black-stone-2363901/). Thanks to Peter Dopper.
-- The scissors image used as Card was taken from [Pexel](https://www.pexels.com/photo/black-scissors-placed-on-beige-background-4226896/). Thanks to Carolia Grabowska.
+- The scissors image used as Card was taken from [Pexel](https://www.pexels.com/photo/black-scissors-placed-on-beige-background-4226896/). Thanks to Carolina Grabowska.
 - The paper image used as Card was taken from [Pexel](https://www.pexels.com/photo/surface-of-crumpled-brown-thick-paper-7794422/). Thanks to Montsera.
 - The Lizard image used as Card was generated by [Dream](https://dream.ai/)
 - The Spock image used as Card was generated by [Dream](https://dream.ai/)
@@ -423,10 +422,10 @@ iPhone 7 | No appearance, responsiveness nor functionality issues. | Pass
 
 ### Code
 
-* [Stack Overflow](https://stackoverflow.com/), [CSS-Tricks](https://css-tricks.com/) and [W3Schools](https://www.w3schools.com/) were consulted for the developing process and to get some useful information for desing.
+* [Stack Overflow](https://stackoverflow.com/), [CSS-Tricks](https://css-tricks.com/) and [W3Schools](https://www.w3schools.com/) were consulted for the developing process and to get some useful information for design.
 
 
-* The code for the popups was made using a youtube video tutorial [Youtube](https://www.youtube.com/watch?v=ZMhEVSvSwwk)
+* The code for the pop-ups was made using a YouTube video tutorial [YouTube](https://www.youtube.com/watch?v=ZMhEVSvSwwk)
 
 * The orientation landscape block was taken from [CSS-Tricks](https://css-tricks.com/snippets/css/orientation-lock/)
 
@@ -437,7 +436,7 @@ iPhone 7 | No appearance, responsiveness nor functionality issues. | Pass
 
 * My family, for their support and patience during the design and development process.
 
-* My tutor, Marcel, for all his guidance, comments and constructives ideas for the project.
+* My tutor, Marcel, for all his guidance, comments and constructive ideas for the project.
 
 * Jose Sanchez, he inspired me with his rpsls project in some important ideas for the design
 
