@@ -18,6 +18,9 @@ Visit the deployed website [here]().
     - [Color Scheme](#color-scheme)
     - [Typography](#typography)
     - [Wireframes](#wireframes)
+  - [Features](#features)
+    - [General](#general)
+    - [Home Section](#home-section)
 
 ***
 
@@ -82,3 +85,41 @@ error page | ![Error page wireframe image](assets/readme-files/error-page.png)
 
 [Back to top ⇧](#rpsls)
 
+
+## Features
+
+### General
+
+* The website has been designed using clamp function to have a better responsiveness.
+
+* **Header**
+![Header image](assets/readme-files/header.png)
+
+    - The header contains the game title in Carter One fonts and the navigation bar.
+
+    - The navigation bar contains links to rules and feedback sections to facilitate navigation across the site. It also has a hover effect that changes color to provide feedback to the player for a better user experience.
+
+* **Game section**
+
+![Game section](assets/readme-files/game-section.png)
+
+- The game section contains the titles "computer" and "player" on top of the slots for the game cards, the item selection buttons for the player, a text box for the game results and finally a scoreboard that is updated after each round. 
+- The card slots shows the computer and player selection respectively.
+- The buttons section shows the 5 different choices the player has.
+- The result text box show who wins the round and why the winner card beats the other one. When one of the players wins 5 round, the result box shows who wins and the text "GAME OVER!".
+- the scoreboard shows at all times how many rounds the computer and the player have won at all times.
+
+* **Background**
+
+- To obtain a background that is always in motion, a background video in loop mode has been added.
+
+### Home Section
+![Home section image](assets/readme-files/home-section.png)
+
+* **Title**
+    - The title is on top of the home section centered and fully responsive.
+
+* **Navigation Buttons**
+    - The New game button starts the game showing the game logo in both card slots and activates the player buttons section.
+
+   

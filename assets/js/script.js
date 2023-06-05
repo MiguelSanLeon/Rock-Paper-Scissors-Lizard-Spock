@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
         playerScore = 0;
         updateScoreText();
         Array.from(playerButtons).forEach(button => button.disabled = false);
-        resultText.textContent = "";
+        resultText.textContent = "Make your choice using the buttons!";
         computerCard.innerHTML = `<img src="assets/images/logo.png" alt="Rock, paper, scissors, lizard, spock logo">`;
         playerCard.innerHTML = `<img src="assets/images/logo.png" alt="Rock, paper, scissors, lizard, spock logo">`;
     }
