@@ -83,29 +83,25 @@ document.addEventListener('DOMContentLoaded', function () {
                     return "You win! Rock crushes " + computerChoice;
                 } else {
                     return "You lose! " + computerChoice + " vaporizes rock";
-                }
-                break;
+                };
             case 'paper':
                 if (computerChoice === 'rock' || computerChoice === 'spock') {
                     return "You win! Paper covers " + computerChoice;
                 } else {
                     return "You lose! " + computerChoice + " disproves paper";
-                }
-                break;
+                };
             case 'scissors':
                 if (computerChoice === 'paper' || computerChoice === 'lizard') {
                     return "You win! Scissors cuts " + computerChoice;
                 } else {
                     return "You lose! " + computerChoice + " smashes scissors";
-                }
-                break;
+                };
             case 'lizard':
                 if (computerChoice === 'paper' || computerChoice === 'spock') {
                     return "You win! Lizard eats " + computerChoice;
                 } else {
                     return "You lose! " + computerChoice + " causes indigestion";
-                }
-                break;
+                };
             case 'spock':
                 if (computerChoice === 'rock' || computerChoice === 'scissors') {
                     return "You win! Spock desintegrates " + computerChoice;
@@ -114,14 +110,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
         }
     }
-    
+
     /** Function to update score text */
 
     function updateScoreText() {
         computerWinsText.textContent = computerScore;
         playerWinsText.textContent = playerScore;
     }
-    
+
     // Event listeners
     startButton.addEventListener('click', startGame);
     Array.from(playerButtons).forEach(button => button.addEventListener('click', playRound));
@@ -131,11 +127,11 @@ document.addEventListener('DOMContentLoaded', function () {
     closeRules.addEventListener('click', function () {
         rules.close();
     });
-    openFeedback.addEventListener('click', function (){
+    openFeedback.addEventListener('click', function () {
         feedback.show();
     });
     closeFeedback.addEventListener('click', function (event) {
         event.preventDefault();
         feedback.close();
-    }); 
+    });
 });

@@ -395,7 +395,7 @@ button:hover {
     color: white;
     transition: color 1s;
     font-weight: bold;
-    transition font-weight: 1s;
+    transition: font-weight 1s;
 }
 
 /* Style errorpage */
